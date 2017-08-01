@@ -23,7 +23,12 @@ ul{
     margin: 0px;
 }
 li{
-    margin: 10px;
+    padding: 10px;
+    transition: .3s;
+}
+li:hover{
+    background-color: #009cdf;
+    cursor: pointer;
 }
 footer{
     background-color: #3e4b5e;
